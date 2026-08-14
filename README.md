@@ -45,6 +45,7 @@ The project follows a layered architecture (routes → controller → service �
 ```
 
 4. Create a `.env` file in the project root:
+```bash
     PORT=3000
     NODE_ENV=development
     DB_NAME=task_manager
@@ -52,6 +53,7 @@ The project follows a layered architecture (routes → controller → service �
     DB_PASSWORD=postgres
     DB_HOST=127.0.0.1
     DB_PORT=5432
+```
 
 5. Run the server:
 ```bash
